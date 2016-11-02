@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'gremlins';
-  src: url('../affiche/fonts/GREMLINS.TTF');
+  src: url('../affiche_ok/fonts/GREMLINS.TTF');
 }
 @font-face {
   font-family: 'garamond';
-  src: url('../affiche/fonts/AppleGaramond-Light.ttf');
+  src: url('../affiche_ok/fonts/AppleGaramond-Light.ttf');
 }
 @font-face {
   font-family: 'garamond_ultra';
-  src: url('../affiche/fonts/Garamond Ultra.ttf');
+  src: url('../affiche_ok/fonts/Garamond Ultra.ttf');
 }
 
 body{
