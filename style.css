@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'gremlins';
+  src: url('../affiche/fonts/GREMLINS.TTF');
+}
+@font-face {
+  font-family: 'garamond';
+  src: url('../affiche/fonts/AppleGaramond-Light.ttf');
+}
+@font-face {
+  font-family: 'garamond_ultra';
+  src: url('../affiche/fonts/Garamond Ultra.ttf');
+}
+
+body{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: gremlins, sans-serif;
+  font-size: 3em;
+  text-align: center;
+  padding: 5px;
+}
+
+#container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+#sans_texte {
+  box-sizing: border-box;
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+.top_paragraph {
+  display: flex;
+  justify-content: center;
+  font-family: garamond, serif;
+  font-size: 1.3em;
+  color: #A1B5CE;
+  margin: 15px;
+  position:absolute;
+}
+.gremlins {
+  font-family: garamond_ultra, serif;
+  font-size: 1.3em;
+  text-align: center;
+  position: absolute;
+  top: 660px;
+  margin: 0;
+}
+.gremlins p {
+  margin: 0;
+}
+#presents {
+  font-size: 0.6em;
+}
+#gremlins_blue {
+  font-family: gremlins, sans-serif;
+  font-size: 2.5em;
+  margin-top: 9px;
+  color: #A1B5CE;
+}
+.bottom_paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: garamond_ultra, serif;
+  font-size: 0.9em;
+  text-align: center;
+  position: absolute;
+  top: 800px;
+}
+.bottom_paragraph p {
+  margin:1px;
+}
+#gremlins_spe {
+  font-family: gremlins, serif;
+}
+#gremlins_logo {
+  display: inline;
+  max-height: 1.2em;
+  margin: 0;
+}
+.footer {
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 100%;
+  height: 15%;
+  background-color: black;
+  box-sizing: border-box;
+  clear:both;
+}
+.footer div {
+  width: 20%;
+  flex: 1;
+}
+.footer img {
+  box-sizing: border-box;
+}
+
+#pg {
+  margin-top: 20px;
+}
+#dolby {
+  margin-top: 13px;
+}
+#warner {
+  margin-top: 12px;
+  padding: 5 15 5 5;
+}
